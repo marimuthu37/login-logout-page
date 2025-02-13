@@ -13,7 +13,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(userData({ name, email }));
-    navigate('/dashboard');
+    navigate('/login-logout-page/dashboard/');
   };
 
   return (

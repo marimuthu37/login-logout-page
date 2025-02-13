@@ -5,11 +5,11 @@ import Dashboard from './Dashboard';
 
 const appRouter = createBrowserRouter([
   {
-    path: '/',
+    path: '/login-logout-page/',
     element: <Login />
   },
   {
-    path: '/dashboard',
+    path: '/login-logout-page/dashboard/',
     element: <Dashboard />
   }
 ])

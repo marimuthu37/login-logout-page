@@ -10,7 +10,7 @@ const Dashboard = () => {
 
   const handleLogout = () => {
     dispatch(logOut());
-    navigate('/');
+    navigate('/login-logout-page/');
   };
 
   return (
